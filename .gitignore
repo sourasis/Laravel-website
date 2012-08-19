@@ -1,0 +1,8 @@
+*.swp
+*~
+tmp
+.bundle
+Thumbs.db
+log/*.log
+dbapp
+*.kpf
