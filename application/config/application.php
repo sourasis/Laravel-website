@@ -39,7 +39,7 @@ return array(
 	|
 	*/
 
-	'index' => '',
+	'index' => 'index.php',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -53,7 +53,7 @@ return array(
 	|
 	*/
 
-	'key' => 'NewsSocially!',
+	'key' => 'YourSecretKeyGoesHere!',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -93,6 +93,19 @@ return array(
 	*/
 
 	'language' => 'en',
+
+	/*
+	|--------------------------------------------------------------------------
+	| Supported Languages
+	|--------------------------------------------------------------------------
+	|
+	| These languages may also be supported by your application. If a request
+	| enters your application with a URI beginning with one of these values
+	| the default language will automatically be set to that language.
+	|
+	*/
+
+	'languages' => array(),
 
 	/*
 	|--------------------------------------------------------------------------
